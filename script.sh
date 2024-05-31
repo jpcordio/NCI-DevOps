@@ -5,8 +5,6 @@ rm -r fol_2
 echo "# Week 2 Lab – Bash & Git" > README.md
 echo "Joao Cordio - x23309644" >> README.md
 echo "[My GitHub Page](https://github.com/jpcordio)" >> README.md
-echo "---" >> README.md
-echo "To run the script.sh, run: \`bash script.sh\`" >> README.md
 
 mkdir fol_1
 cd fol_1
@@ -27,5 +25,3 @@ cd ../
 touch .gitignore
 echo fol_1/ > .gitignore
 echo fol_2/ >> .gitignore
-
-echo "Job completed"
